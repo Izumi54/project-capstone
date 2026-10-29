@@ -12,4 +12,10 @@ class OrderController extends Controller
         $orders = Order::with('customer')->latest()->get();
         return view('dashboard', compact('orders'));
     }
+
+    public function create()
+    {
+        $customers = \App\Models\Customer::all();
+        return view('order.create', compact('customers'));
+    }
 }
