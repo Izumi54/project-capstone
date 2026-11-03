@@ -11,7 +11,7 @@
         <div class="container">
             <a class="navbar-brand" href="/">SMP sederhana</a>
             <div>
-                <a href="/cutomers" class="btn btn-outline-light btn-sm me-2">Data Pelanggan</a>
+                <a href="/customers" class="btn btn-outline-light btn-sm me-2">Data Pelanggan</a>
                 <a href="/orders/create" class="btn btn-primary btn-sm">Tambah Pesanan</a>
             </div>
         </div>

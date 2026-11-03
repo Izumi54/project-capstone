@@ -13,17 +13,17 @@
                     
                     <div class="mb-3">
                         <label class="form-label">Nama Pelanggan</label>
-                        <input type="text" name="name" class="form-control" required>
+                        <input type="text" name="nama" class="form-control" required>
                     </div>
                     
                     <div class="mb-3">
                         <label class="form-label">Nomor HP</label>
-                        <input type="text" name="phone" class="form-control" required>
+                        <input type="text" name="nomor" class="form-control" required>
                     </div>
                     
                     <div class="mb-3">
                         <label class="form-label">Alamat Lengkap</label>
-                        <textarea name="address" class="form-control" rows="3"></textarea>
+                        <textarea name="alamat" class="form-control" rows="3"></textarea>
                     </div>
                     
                     <div class="d-flex justify-content-between">

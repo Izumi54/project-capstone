@@ -6,7 +6,7 @@
     <a href="/customers/create" class="btn btn-primary">Tambah Pelanggan</a>
 </div>
 
-@if(session('succses'))
+@if(session('success'))
     <div class="alert alert-success">{{ session('success') }}</div>
 @endif
 
